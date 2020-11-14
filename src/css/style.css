@@ -1,0 +1,30 @@
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+.title {
+    display: block;
+    margin: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.img-link {
+    display: block;
+    flex: 0 1 30%;
+    margin-bottom: 30px;
+}
+.image {
+    display: block;
+    width: 100%;
+}
+.full-img {
+    width: 100%;
+}
